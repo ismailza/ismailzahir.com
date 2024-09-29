@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Software Engineering and Computer Systems Integration",
+    "type": "Engineering Degree",
+    "school": {
+      "name": "Faculty of Sciences and Technologies",
+      "logo": "/logo/fstm.jpeg",
+      "university": "Hassan II University",
+      "city": "Mohammedia"
+    },
+    "startedAt": "2022",
+    "endedAt": "2025"
+  },
+  {
+    "title": "Software Engineering",
+    "type": "Software Engineer Certification",
+    "school": {
+      "name": "ALX",
+      "logo": "/logo/alx.jpeg",
+      "city": "Online"
+    },
+    "startedAt": "2023",
+    "endedAt": "2024"
+  },
+  {
+    "title": "Software Engineering",
+    "type": "Bachelor of Science and Technology",
+    "school": {
+      "name": "Faculty of Science and Technology",
+      "logo": "/logo/fste.jpeg",
+      "university": "Hassan II University",
+      "city": "Errachidia"
+    },
+    "startedAt": "2021",
+    "endedAt": "2022"
+  },
+  {
+    "title": "Mathematics, Physics and Computer Science",
+    "type": "Diploma of University Studies in Science and Technology",
+    "school": {
+      "name": "Faculty of Science and Technology",
+      "logo": "/logo/fste.jpeg",
+      "university": "Hassan II University",
+      "city": "Errachidia"
+    },
+    "startedAt": "2019",
+    "endedAt": "2021"
+  },
+  {
+    "title": "Mathematics Science A, French option",
+    "type": "Baccalaureate in Mathematics Sciences",
+    "school": {
+      "name": "Hassan II High School",
+      "city": "Tinejdad"
+    },
+    "startedAt": "2018",
+    "endedAt": "2019"
+  }
+]

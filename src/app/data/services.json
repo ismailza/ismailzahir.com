@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Custom Web Application Development",
+    "slug": "web-development",
+    "excerpt": "Creating tailored web solutions to meet your business needs.",
+    "overview": "I specialize in building high-performance web applications using modern frameworks and technologies. Whether you're looking for a simple website or a complex platform, I provide custom development solutions that are responsive, scalable, and secure.",
+    "features": [
+      "Responsive design for all devices",
+      "Custom UI/UX tailored to your business",
+      "Scalable architecture for future growth",
+      "Full-stack development using modern frameworks"
+    ],
+    "icon": "/icons/web-development.svg",
+    "tags": ["web", "full-stack"]
+  },
+  {
+    "name": "API Development & Integration",
+    "slug": "api-development",
+    "excerpt": "Seamless API development and integration for data-driven applications.",
+    "overview": "I build robust and scalable APIs for seamless communication between applications and services. Whether you're looking to expose data or integrate with third-party services, I ensure the development of secure and efficient APIs to enhance your app’s functionality.",
+    "features": [
+      "RESTful API development",
+      "Secure data handling with OAuth2/JWT authentication",
+      "Third-party API integration (e.g. payment gateways, social media)",
+      "Microservices architecture",
+      "Data exchange between applications",
+      "API documentation and testing"
+    ],
+    "icon": "/icons/api-development.svg",
+    "tags": ["api", "backend"]
+  },
+  {
+    "name": "Cloud & DevOps Solutions",
+    "slug": "cloud-devops",
+    "excerpt": "Optimize your infrastructure with cloud-native and DevOps practices.",
+    "overview": "I offer cloud solutions that help businesses scale efficiently. From setting up continuous integration/continuous delivery (CI/CD) pipelines to managing Docker containers and Kubernetes clusters, I ensure your infrastructure is optimized for performance and security.",
+    "features": [
+      "CI/CD pipeline setup",
+      "Containerization with Docker",
+      "Kubernetes cluster management",
+      "Monitoring and logging solutions",
+      "Automated testing and deployment"
+    ],
+    "icon": "/icons/cloud-devops.svg",
+    "tags": ["cloud", "devops"]
+  },
+  {
+    "name": "E-commerce Development",
+    "slug": "ecommerce-development",
+    "excerpt": "Building custom e-commerce solutions for seamless online shopping experiences.",
+    "overview": "I specialize in developing e-commerce platforms that are tailored to your business needs. From customizing existing platforms to building from scratch, I provide solutions that are secure, scalable, and user-friendly to help you grow your online business.",
+    "features": [
+      "Custom e-commerce platform development",
+      "Payment gateway integration",
+      "Product catalog and inventory management",
+      "User-friendly shopping cart and checkout process",
+      "Secure transactions with SSL encryption"
+    ],
+    "icon": "/icons/ecommerce-development.svg",
+    "tags": ["web", "full-stack"]
+  },
+  {
+    "name": "Mobile App Development",
+    "slug": "mobile-development",
+    "excerpt": "Creating native and cross-platform mobile applications for iOS and Android.",
+    "overview": "I develop mobile applications that are tailored to your business requirements. Whether you need a native app for iOS or Android or a cross-platform app that works on multiple devices, I provide custom solutions that are user-friendly, secure, and scalable.",
+    "features": [
+      "Native app development for iOS and Android",
+      "Cross-platform app development with React Native",
+      "User-friendly UI/UX design",
+      "Secure data handling and storage",
+      "Integration with third-party services (e.g. social media, payment gateways)"
+    ],
+    "icon": "/icons/mobile-development.svg",
+    "tags": ["mobile", "full-stack"]
+  },
+  {
+    "name": "Database Design & Optimization",
+    "slug": "database-design",
+    "excerpt": "Efficient database solutions for optimal performance and scalability.",
+    "overview": " I design and optimize databases that handle high loads and large amounts of data. From schema design to query optimization, I ensure your database is both efficient and scalable to meet growing demands.",
+    "features": [
+      "Relational and non-relational database design",
+      "Advanced query optimization for performance",
+      "Data indexing and normalization",
+      "Database migration and scaling",
+      "Data backup and recovery solutions"
+    ],
+    "icon": "/icons/database-design.svg",
+    "tags": ["database", "backend"]
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Hackathon GEIW 2023",
+    "issuedAt": "Mars 2023",
+    "issuedBy": "ENSET Mohammedia",
+    "description": "The hackathon revolved around the theme \"Blockchain and AI in Healthcare,\" and our objective was to construct a secure and decentralized system for housing patient healthcare data. We were chosen as one of the 26 teams representing Morocco in this competition.\n\nOver the course of an intensive 24-hour effort, we successfully developed a prototype for both mobile and web applications that satisfied the stringent requirements for secure information sharing, data protection, and addressing various healthcare challenges. Our solution leverages blockchain and AI technologies to ensure that patient healthcare data is stored in a decentralized manner, enhancing its security and accessibility to all healthcare industry stakeholders once approved by the patient.",
+    "is_award": true
+  }
+]
