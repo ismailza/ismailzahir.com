@@ -1,5 +1,5 @@
 # Ismail ZAHIR - Portfolio Website
-[![Live View](https://img.shields.io/badge/View%20Live-Portfolio-blue?style=for-the-badge)](https://ismailzahir.me)
+[![Live Preview](https://img.shields.io/badge/Live-Preview-blue)](https://ismailzahir.me)
 
 Welcome to my personal portfolio repository! This project showcases my skills, services, and projects as a software engineer and system integrator. It's built using modern web technologies and highlights some of the most exciting work I've done, along with the services I offer.
 
@@ -19,7 +19,7 @@ Welcome to my personal portfolio repository! This project showcases my skills, s
 - **Deployment**: Hosted on Vercel, a cloud platform for static sites and serverless functions, with continuous integration and continuous deployment via GitHub Actions.
 - **Email Handling**: Contact form submissions are handled using Nodemailer, a module for Node.js applications to allow email sending.
 
-## Integration and Deployment
+## 🚀 Integration and Deployment
 This portfolio is integrated with Vercel for deployment. Vercel is a cloud platform for static sites and serverless functions that provides a seamless integration with Next.js.
 
 This repository is configured with GitHub Actions to automatically deploy the portfolio to Vercel whenever changes are pushed to the `master` branch.
