@@ -294,7 +294,7 @@ export default function Home() {
                     {`I have received various honors and awards for my work as a software engineer.`}
                   </p>
                   <div className="py-2 lg:grid lg:gap-4 lg:max-h-screen lg:overflow-y-auto">
-                    {educationsLoading ? (
+                    {honorsLoading ? (
                       <CardSkeleton/>
                     ) : (
                       honors.map((honor: HonorProps, index: number) => (
