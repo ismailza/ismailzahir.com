@@ -4,7 +4,7 @@ import {toast} from "react-toastify";
 import Title from "@/components/Title";
 import {ProjectProps} from "@/lib/types";
 import Project from "@/components/project";
-import CardSkeleton from "@/components/cardSkeleton";
+import Loading from "@/app/projects/loading";
 
 export default function Projects() {
 
@@ -23,6 +23,10 @@ export default function Projects() {
       .then(() => console.log('Projects fetched successfully!'));
   }, []);
 
+  if (loading) {
+    return <Loading />
+  }
+
   return (
     <section className="bg-white dark:bg-gray-900">
       <div className="container px-6 py-10 mx-auto">
@@ -31,14 +35,9 @@ export default function Projects() {
           Take a look at some of my recent projects.
         </p>
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
-          {loading ?
-            Array.from({length: 6}).map((_, index) => (
-              <CardSkeleton key={index}/>
-            ))
-          :
-            projects.map((project: ProjectProps, index) => (
-              <Project data={project} key={index}/>
-            ))}
+          {projects.map((project: ProjectProps, index) => (
+            <Project data={project} key={index}/>
+          ))}
         </div>
       </div>
     </section>

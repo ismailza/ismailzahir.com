@@ -70,7 +70,7 @@ export default function Project({ params }: { params: { slug: string } }) {
             />
             <div className="flex w-full gap-x-2 mt-4">
               {project.demo &&
-                <Link href={project.demo}
+                <Link href={project.demo} target="_blank"
                       className="bg-green-800 flex items-center text-gray-100 justify-center gap-x-3 text-sm sm:text-base dark:border-gray-700 rounded-lg duration-300 transition-colors border px-6 py-2.5">
                   <svg className="w-6 h-6 fill-current text-green-200"
                        xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +82,7 @@ export default function Project({ params }: { params: { slug: string } }) {
                 </Link>
               }
               {project.release &&
-                <Link href={project.release}
+                <Link href={project.release} target="_blank"
                       className="bg-cyan-900 flex gap-x-3 text-sm sm:text-base items-center justify-center text-white rounded-lg duration-300 transition-colors border border-transparent px-6 py-2.5">
                   <svg className="w-6 h-6 fill-current text-green-500"
                     xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +94,7 @@ export default function Project({ params }: { params: { slug: string } }) {
                 </Link>
               }
               {project.github &&
-                <Link href={project.github}
+                <Link href={project.github} target="_blank"
                       className="bg-black rounded-lg text-sm sm:text-base flex items-center gap-x-3 justify-center text-white hover:bg-black/80 duration-300 transition-colors border border-transparent px-6 py-2.5">
                   <svg className="w-6 h-6 fill-current text-white"
                        xmlns="http://www.w3.org/2000/svg"
