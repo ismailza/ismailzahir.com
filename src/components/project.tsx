@@ -7,7 +7,7 @@ const Project = ({ data: project }: { data: ProjectProps }) => {
     <div className="w-full max-w-sm bg-blue-100 rounded-lg shadow-lg dark:bg-gray-800 flex flex-col">
       <Link href={`/projects/${project.slug}`}>
         <img
-          className="object-cover object-center w-full h-56"
+          className="object-cover object-center w-full h-56 rounded-t-lg"
           src={project.image}
           alt={project.title}
           loading="lazy"
