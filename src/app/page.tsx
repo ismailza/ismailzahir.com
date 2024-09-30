@@ -24,6 +24,7 @@ import Title from "@/components/Title";
 import Certificate from "@/components/certificate";
 import Honor from "@/components/honor";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
 
@@ -105,44 +106,30 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="relative mx-auto lg:mx-0 mt-12 md:mt-16 lg:mt-0">
-            <img
-              alt="Ismail ZAHIR"
-              className="rounded-full"
-              width="300"
-              height="300"
-              src="/profile.svg"
-              style={{
-                aspectRatio: "300/300",
-                objectFit: "cover",
-              }}
-              loading="lazy"
+
+          <div className="relative mx-auto mt-24 md:mt-16 lg:mt-0">
+            <Image alt='avatar' width={300} height={300}
+                   className="rounded-full object-cover"
+                   src="/profile.svg"
             />
+
             <button
-              className="absolute flex -top-6 -left-12 lg:-top-14 lg:-left-32 w-auto h-16 md:h-20 dark:bg-grey-800 place-items-center shadow-blue-500 shadow-md bg-white items-center text-gray-700 dark:text-gray-300 justify-center gap-x-3 text-sm sm:text-base dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800 rounded-3xl hover:bg-gray-100 duration-300 transition-colors border px-8 py-2.5">
-              👋
+              className="absolute flex -top-16 -left-2 lg:-top-14 lg:-left-32 w-auto h-16 md:h-20 dark:bg-grey-800 place-items-center shadow-blue-500 shadow-md bg-white items-center text-gray-700 dark:text-gray-300 justify-center gap-x-3 text-sm sm:text-base dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800 rounded-3xl hover:bg-blue-50 duration-300 transition-colors border px-6 py-2">
+              <Image unoptimized={true} alt='waving-hand' width={30} height={30} src="/waving-hand.gif"/>
               <div className="text-start">
                 <span>Hi there!</span>
                 <p className="text-sm text-gray-500">Welcome to my portfolio</p>
               </div>
             </button>
             <button
-              className="absolute flex top-16 -right-12 lg:-right-56 w-auto dark:bg-grey-800 place-items-center shadow-blue-500 shadow-md bg-white items-center text-gray-700 dark:text-gray-300 justify-center gap-x-3 text-sm sm:text-base dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800 rounded-full hover:bg-gray-100 duration-300 transition-colors border px-8 py-2.5">
-              <svg className="w-auto h-5 sm:h-6 sm:w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
-                <path
-                  d="M0 241.1C0 161 65 96 145.1 96c38.5 0 75.4 15.3 102.6 42.5L320 210.7l72.2-72.2C419.5 111.3 456.4 96 494.9 96C575 96 640 161 640 241.1l0 29.7C640 351 575 416 494.9 416c-38.5 0-75.4-15.3-102.6-42.5L320 301.3l-72.2 72.2C220.5 400.7 183.6 416 145.1 416C65 416 0 351 0 270.9l0-29.7zM274.7 256l-72.2-72.2c-15.2-15.2-35.9-23.8-57.4-23.8C100.3 160 64 196.3 64 241.1l0 29.7c0 44.8 36.3 81.1 81.1 81.1c21.5 0 42.2-8.5 57.4-23.8L274.7 256zm90.5 0l72.2 72.2c15.2 15.2 35.9 23.8 57.4 23.8c44.8 0 81.1-36.3 81.1-81.1l0-29.7c0-44.8-36.3-81.1-81.1-81.1c-21.5 0-42.2 8.5-57.4 23.8L365.3 256z"/>
-              </svg>
-              <span>DevOps Enthusiast</span>
-            </button>
-            <button
-              className="absolute flex -bottom-10 -right-24 lg:-bottom-0 w-auto dark:bg-grey-800 place-items-center shadow-blue-500 shadow-md bg-white items-center text-gray-700 dark:text-gray-300 justify-center gap-x-3 text-sm sm:text-base dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800 rounded-full hover:bg-gray-100 duration-300 transition-colors border px-8 py-2.5">
-              <svg className="w-auto h-5 sm:h-6 sm:w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                <path
-                  d="M171.7 232.8A5.4 5.4 0 0 0 176.7 229.5 48.1 48.1 0 0 1 191.6 204.2c1.2-.8 1.7-2.5 1.7-4.1a4.2 4.2 0 0 0 -2.1-3.3L74.4 128.5 149 85a9.9 9.9 0 0 0 5-8.3 9.1 9.1 0 0 0 -5-8.3L126.6 55.6a9.7 9.7 0 0 0 -9.5 0l-100.2 58a9.9 9.9 0 0 0 -5 8.3V237a9.1 9.1 0 0 0 5 8.3L39.2 258.1a8.8 8.8 0 0 0 5 1.2 9.4 9.4 0 0 0 6.6-2.5 10.8 10.8 0 0 0 2.9-7V164.5L169.7 232.4A4.5 4.5 0 0 0 171.7 232.8zM323.3 377.7a12.5 12.5 0 0 0 -5 1.2l-74.5 43.1V287.9c0-2.9-2.9-5.8-6.2-4.6a53 53 0 0 1 -29 .4 4.9 4.9 0 0 0 -6.2 4.6V421.6l-74.5-43.1a8.8 8.8 0 0 0 -5-1.2 9.6 9.6 0 0 0 -9.5 9.5v26.1a9.1 9.1 0 0 0 5 8.3l100.2 57.6A8.8 8.8 0 0 0 223.5 480a11 11 0 0 0 5-1.2l100.2-57.6a9.9 9.9 0 0 0 5-8.3V386.8C332.8 382.3 328.2 377.7 323.3 377.7zM286 78a23 23 0 1 0 -23-23A23 23 0 0 0 286 78zm63.6-10.1a23 23 0 1 0 23 23A23 23 0 0 0 349.6 67.9zM412.8 151.6a23 23 0 1 0 -23-23A23 23 0 0 0 412.8 151.6zm-63.2-9.2a23 23 0 1 0 23 23A23 23 0 0 0 349.6 142.4zm-63.6 83.2a23 23 0 1 0 -23-23A23 23 0 0 0 286 225.6zm-62.1 36.4a23 23 0 1 0 -23-23A23 23 0 0 0 223.9 262zm188.9-82.4a23 23 0 1 0 23 23A23 23 0 0 0 412.8 179.6zm0 72.3a23 23 0 1 0 23 23A23 23 0 0 0 412.8 251.9z"/>
-              </svg>
-              <span>Software Engineer</span>
+              className="absolute flex -bottom-8 right-6 lg:-bottom-0 lg:-right-24 w-auto h-16 md:h-20 dark:bg-grey-800 place-items-center shadow-blue-500 shadow-md bg-white items-center text-gray-700 dark:text-gray-300 justify-center gap-x-3 text-sm sm:text-base dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800 rounded-3xl hover:bg-blue-50 duration-300 transition-colors border px-8 py-2">
+              <div className="text-start">
+                <span>Software Engineer</span>
+                <p className="text-sm text-gray-500">DevOps Enthusiast</p>
+              </div>
             </button>
           </div>
+
         </div>
         <FindMeCTA/>
       </header>
@@ -355,15 +342,15 @@ export default function Home() {
           )}
         </div>
         <div className="flex justify-center">
-        <Link href="/projects"
-              className="flex mt-4 mx-auto px-6 gap-4 justify-center items-center p-2 text-blue-500 capitalize transition-colors duration-300 transform bg-blue-100 rounded-full rtl:-scale-x-100 dark:bg-gray-700 hover:bg-blue-200 dark:hover:bg-gray-800 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500">
-          <span>View All</span>
-          <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24"
-               stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
-                  d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
-          </svg>
-        </Link>
+          <Link href="/projects"
+                className="flex mt-4 mx-auto px-6 gap-4 justify-center items-center p-2 text-blue-500 capitalize transition-colors duration-300 transform bg-blue-100 rounded-full rtl:-scale-x-100 dark:bg-gray-700 hover:bg-blue-200 dark:hover:bg-gray-800 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500">
+            <span>View All</span>
+            <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24"
+                 stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                    d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+          </Link>
         </div>
       </section>
 
