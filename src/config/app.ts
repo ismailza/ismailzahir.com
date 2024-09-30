@@ -13,7 +13,8 @@ export const logo = {
 };
 
 export const resumes = {
-  english: "https://drive.google.com/file/d/1L2SHgV1EQXCQPu1oXEy_Vm50QAEucas0/view?usp=drive_link",
+  english: "https://drive.google.com/file/d/1sPvhnQVIEZ0BiZDPv4ejAAWD7KWh4wzX/view?usp=drive_link",
+  french: "https://drive.google.com/file/d/1CDwjJ4tFDGReNTCy6K2oUiwRsU2xju_t/view?usp=drive_link",
 }
 
 export const contact = {

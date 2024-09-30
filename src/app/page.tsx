@@ -25,9 +25,11 @@ import Certificate from "@/components/certificate";
 import Honor from "@/components/honor";
 import Link from "next/link";
 import Image from "next/image";
+import DownloadResumeModal from "@/components/DownloadResumeModal";
 
 export default function Home() {
 
+  const [resumeModalOpen, setResumeModalOpen] = useState(false);
   const [resumeTab, setResumeTab] = useState('experience');
   const [servicesLoading, setServicesLoading] = useState(true);
   const [experiencesLoading, setExperiencesLoading] = useState(true);
@@ -95,10 +97,10 @@ export default function Home() {
                 Join me in creating exceptional software experiences and embracing the potential of technology.
               </p>
               <div className="mt-6 space-x-4 flex justify-start">
-                <a href={resumes.english} target="_blank" rel="noreferrer"
-                   className="px-5 py-2 mt-4 text-sm font-medium text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                <button onClick={() => setResumeModalOpen(true)}
+                        className="px-6 py-2 mt-4 text-sm font-medium text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md lg:w-auto hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
                   Resume
-                </a>
+                </button>
                 <button onClick={() => scrollToSection('contact')}
                         className="px-5 py-2 mt-4 text-sm font-medium text-gray-700 dark:text-white capitalize transition-colors duration-300 transform border rounded-md hover:bg-gray-700 hover:text-white focus:outline-none focus:bg-blue-500">
                   Contact me
@@ -133,6 +135,8 @@ export default function Home() {
         </div>
         <FindMeCTA/>
       </header>
+
+      <DownloadResumeModal isOpen={resumeModalOpen} close={() => setResumeModalOpen(false)} />
 
       <section id="about" className="max-w-6xl px-6 py-10 mx-auto">
         <h4 className="text-xl font-medium text-blue-500 dark:text-blue-400">About me</h4>
