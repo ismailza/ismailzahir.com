@@ -1,5 +1,5 @@
 'use client';
-import {contact, resumes} from "@/config/app";
+import {contact} from "@/config/app";
 import {scrollToSection} from "@/lib/helper";
 import ContactForm from "@/components/contactForm";
 import {useEffect, useState} from "react";
