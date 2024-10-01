@@ -84,8 +84,32 @@ export default function Home() {
   return (
     <div className="lg:px-12 bg-white dark:bg-gray-900">
       <header className="container px-6 py-16 mx-auto">
-        <div className="items-center lg:flex">
-          <div className="w-full lg:w-1/2">
+        <div className="items-center lg:flex lg:flex-row-reverse">
+          <div className="relative mx-auto mt-4 md:mt-16 lg:mt-0">
+            <div className="flex items-center justify-center">
+            <Image alt='avatar' width={300} height={300}
+                   className="rounded-full object-cover"
+                   src="/profile.svg"
+            />
+            </div>
+            <button
+              className="absolute flex -top-14 -left-2 lg:-top-14 lg:-left-32 w-auto h-16 md:h-20 dark:bg-grey-800 place-items-center shadow-blue-500 shadow-md bg-white items-center text-gray-700 dark:text-gray-300 justify-center gap-x-3 text-sm sm:text-base dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800 rounded-3xl hover:bg-blue-50 duration-300 transition-colors border px-6 py-2">
+              <Image unoptimized={true} alt='waving-hand' width={30} height={30} src="/waving-hand.gif"/>
+              <div className="text-start">
+                <span>Hi there!</span>
+                <p className="text-sm text-gray-500">Welcome to my portfolio</p>
+              </div>
+            </button>
+            <button
+              className="absolute flex -bottom-8 right-6 lg:-bottom-0 lg:-right-24 w-auto h-16 md:h-20 dark:bg-grey-800 place-items-center shadow-blue-500 shadow-md bg-white items-center text-gray-700 dark:text-gray-300 justify-center gap-x-3 text-sm sm:text-base dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800 rounded-3xl hover:bg-blue-50 duration-300 transition-colors border px-8 py-2">
+              <div className="text-start">
+                <span>Software Engineer</span>
+                <p className="text-sm text-gray-500">DevOps Enthusiast</p>
+              </div>
+            </button>
+          </div>
+
+          <div className="w-full lg:w-1/2 mt-24 md:mt-16 lg:mt-0">
             <div className="lg:max-w-lg">
               <Title textClass="text-3xl font-semibold text-gray-800 dark:text-gray-100 lg:text-4xl">
                 {`Hi, I'm Ismail ZAHIR`}
@@ -108,35 +132,11 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-          <div className="relative mx-auto mt-24 md:mt-16 lg:mt-0">
-            <Image alt='avatar' width={300} height={300}
-                   className="rounded-full object-cover"
-                   src="/profile.svg"
-            />
-
-            <button
-              className="absolute flex -top-16 -left-2 lg:-top-14 lg:-left-32 w-auto h-16 md:h-20 dark:bg-grey-800 place-items-center shadow-blue-500 shadow-md bg-white items-center text-gray-700 dark:text-gray-300 justify-center gap-x-3 text-sm sm:text-base dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800 rounded-3xl hover:bg-blue-50 duration-300 transition-colors border px-6 py-2">
-              <Image unoptimized={true} alt='waving-hand' width={30} height={30} src="/waving-hand.gif"/>
-              <div className="text-start">
-                <span>Hi there!</span>
-                <p className="text-sm text-gray-500">Welcome to my portfolio</p>
-              </div>
-            </button>
-            <button
-              className="absolute flex -bottom-8 right-6 lg:-bottom-0 lg:-right-24 w-auto h-16 md:h-20 dark:bg-grey-800 place-items-center shadow-blue-500 shadow-md bg-white items-center text-gray-700 dark:text-gray-300 justify-center gap-x-3 text-sm sm:text-base dark:bg-gray-900 dark:border-gray-700 dark:hover:bg-gray-800 rounded-3xl hover:bg-blue-50 duration-300 transition-colors border px-8 py-2">
-              <div className="text-start">
-                <span>Software Engineer</span>
-                <p className="text-sm text-gray-500">DevOps Enthusiast</p>
-              </div>
-            </button>
-          </div>
-
         </div>
         <FindMeCTA/>
       </header>
 
-      <DownloadResumeModal isOpen={resumeModalOpen} close={() => setResumeModalOpen(false)} />
+      <DownloadResumeModal isOpen={resumeModalOpen} close={() => setResumeModalOpen(false)}/>
 
       <section id="about" className="max-w-6xl px-6 py-10 mx-auto">
         <h4 className="text-xl font-medium text-blue-500 dark:text-blue-400">About me</h4>
@@ -159,7 +159,7 @@ export default function Home() {
                 <p className="text-blue-700 dark:text-blue-200 ">A passionate Software Engineer from Morocco</p>
               </div>
               <p className="mt-4 text-lg leading-relaxed text-gray-800 dark:text-white md:text-xl">
-                {`I'm Ismail ZAHIR, a Software Engineering and Computer Systems Integration student with a strong
+              {`I'm Ismail ZAHIR, a Software Engineering and Computer Systems Integration student with a strong
                   foundation in software engineering.`}
               </p>
               <p className="mt-4 text-lg leading-relaxed text-gray-800 dark:text-white md:text-xl">
