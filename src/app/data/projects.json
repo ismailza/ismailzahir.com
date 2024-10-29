@@ -4,7 +4,7 @@
     "slug": "nexoworld",
     "excerpt": "An innovative mobile game merging exploration, digital currency, and social interaction in real-world environments.",
     "overview": "NexoWorld is a groundbreaking mobile game that blends the real and digital worlds through augmented reality (AR). Drawing inspiration from games like Pokémon Go, it offers a unique twist—players explore real-world locations to collect, trade, and manage in-app currency while participating in challenges and unlocking new content. The game integrates spatial data and microservices architecture to provide seamless real-time updates and ensure high performance on both Android and iOS platforms.\n\nNexoWorld's fusion of digital assets with physical exploration introduces a new dimension of gaming, offering players personalized experiences, in-game quests, and trading opportunities. The project utilizes DevOps practices for cloud-native deployment, ensuring high availability and scalability.",
-    "image": "/projects/nexoworld.webp",
+    "image": "/projects/nexoworld.png",
     "category": "Mobile Game",
     "timeline": {
       "start": "Oct 2024",
