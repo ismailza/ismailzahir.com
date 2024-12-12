@@ -1,5 +1,5 @@
 # Ismail ZAHIR - Portfolio Website
-[![Live Preview](https://img.shields.io/badge/Live-Preview-blue)](https://ismailzahir.me)
+[![Live Preview](https://img.shields.io/badge/Live-Preview-blue)](https://ismailzahir.com)
 
 Welcome to my personal portfolio repository! This project showcases my skills, services, and projects as a software engineer and system integrator. It's built using modern web technologies and highlights some of the most exciting work I've done, along with the services I offer.
 
@@ -36,12 +36,12 @@ Ensure you have the following installed on your machine:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ismailza/ismailzahir.me.git
+   git clone https://github.com/ismailza/ismailzahir.com.git
     ```
    
 2. Navigate into the project directory:
     ```bash
-    cd ismailzahir.me
+    cd ismailzahir.com
     ```
    
 3. Install the dependencies:
@@ -89,7 +89,7 @@ To run the production build locally:
 ```
 
 ## 🌐 Live Demo
-The portfolio is live at [ismailzahir.me](https://ismailzahir.me).
+The portfolio is live at [ismailzahir.com](https://ismailzahir.com).
 
 ## 📧 Contact
 Feel free to reach out if you'd like to collaborate or have any inquiries:
