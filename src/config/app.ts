@@ -26,8 +26,8 @@ export const logo = {
 };
 
 export const resumes = {
-  english: "https://drive.google.com/file/d/1VPeTRBMxlBFkbn7DpAY2-dZMt-xLlIf6/view?usp=drive_link",
-  french: "https://drive.google.com/file/d/177IZdFjZGbCGyPEfiK1fORis538jLfGE/view?usp=drive_link",
+  english: "https://drive.google.com/file/d/1NQSdtLZ-8MfYcPb1Yld9x3lubqjCIfRh/view?usp=drive_link",
+  french: "https://drive.google.com/file/d/1eLfWBsTePB23xlMOUEowz4QV_wH9DSQX/view?usp=drive_link",
 }
 
 export const contact = {
