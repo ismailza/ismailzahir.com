@@ -55,7 +55,7 @@
     "slug": "zstore-net",
     "excerpt": "ZStore.Net is a modern e-commerce platform designed to streamline online retail operations, offering seamless product management and customer engagement features.",
     "overview": "Built with ASP.Net Core, ZStore.Net aims to provide a robust and scalable solution for online stores, ensuring smooth operations from product listings to order management. The platform leverages MVC architecture for a clean separation of concerns and Entity Framework to simplify database interactions with MS SQL. Through CI/CD pipelines, ZStore.Net supports continuous development and deployment for quick feature releases and bug fixes.",
-    "image": "/projects/zstore-net.svg",
+    "image": "/projects/zstore.net.png",
     "category": "Web Application",
     "timeline": {
       "start": "Oct 2024",
@@ -84,7 +84,7 @@
     "slug": "drmaroc",
     "excerpt": "Dr Maroc offers a broad range of digital solutions to help doctors manage their clinics, services, and patients, as well as to simplify appointment booking for patients. ",
     "overview": "Dr Maroc aims to modernize healthcare in Morocco by equipping medical professionals with digital tools and services to optimize clinic management. This web platform streamlines various healthcare operations, from appointment scheduling to patient record management, while enabling doctors to market their services. The platform ensures data security through industry-standard encryption techniques and offers a seamless user experience for both doctors and patients.",
-    "image": "/projects/drmaroc.svg",
+    "image": "/projects/drmaroc.png",
     "category": "Web Application",
     "timeline": {
       "start": "Jul 2024",
@@ -113,18 +113,18 @@
     "github": "https://github.com/drmaroc"
   },
   {
-    "title": "ZFixBuy HUB",
-    "slug": "zfixbuy-hub",
-    "excerpt": "The ultimate online marketplace for new and used products, offering seamless buying experiences, repair services, and personalized recommendations.",
-    "overview": "ZFixBuy HUB is a feature-rich e-commerce platform designed to connect buyers, sellers, and repair service providers. This platform offers a seamless digital space where customers can buy and sell new or used products while also accessing repair services for their devices.\n\nWith a focus on security, personalization, and user experience, ZFixBuy HUB empowers businesses to manage listings and engage with customers. Additionally, customers benefit from direct communication channels, order tracking, and comprehensive service management features. The project showcases a modern web stack, ensuring scalability and security for growing business needs.",
-    "image": "/projects/zfixbuy-hub.png",
+    "title": "Kolchi.ma",
+    "slug": "kolchi.ma",
+    "excerpt": "Your One-Stop Marketplace for Buying, Selling, and Repairing – All in One Seamless Experience",
+    "overview": "kolchi.ma is an advanced online marketplace designed for the buying and selling of new and used products with a unique repair services integration. Our platform enables users to discover great deals, manage their products, request repairs, and enjoy a personalized experience all in one place. Built with a scalable, microservices architecture, kolchi.ma ensures flexibility, security, and optimized performance to deliver an exceptional user experience.",
+    "image": "/projects/kolchi.ma.png",
     "category": "Web Application",
     "timeline": {
       "start": "May 2024",
       "end": "Present"
     },
     "featured": true,
-    "technologies": ["Node.js", "Express.js", "React.js", "JWT", "Vitest", "MongoDB", "Docker", "Git Flow", "GitHub Actions"],
+    "technologies": ["DotNet Core", "Spring Boot", "Node.js", "NestJs", "Angular", "JWT", "MongoDB", "PostgreSQL", "SQL Server", "Redis", "Docker", "Git Flow", "GitHub Actions"],
     "features": [
       "User Registration and Authentication: Secure sign-up and login for Admins, Sellers, and Clients, with social media integration, email verification, and password reset.",
       "Product Listings: Sellers can create, manage, and display new and used product listings, including bulk uploads.",
@@ -145,8 +145,8 @@
         "github": "https://www.github.com/ismailza"
       }
     ],
-    "tags": ["E-commerce", "Services", "Web App", "Node.js", "React.js"],
-    "github": "https://github.com/ZFixBuy-HUB"
+    "tags": ["E-commerce", "Services", "Web App", "Microservices"],
+    "github": "https://github.com/kolchi-ma"
   },
   {
     "title": "Busway Ticket Chatbot",
@@ -239,7 +239,7 @@
     "slug": "zstore-jee",
     "excerpt": "Dynamic ecommerce web app with JEE, MVC, Hibernate, and MySQL for seamless online shopping experiences.",
     "overview": "ZStore is a feature-rich ecommerce web application designed with JEE technologies following the MVC architecture. It offers users a smooth shopping experience with an intuitive interface and dynamic product catalog. On the backend, Hibernate ORM efficiently manages the persistence layer, while MySQL ensures secure handling of product and user data.\n\nThis project also includes a backend administration panel for managing products, orders, and user accounts. As a key developer, I led the integration of Hibernate and contributed to the frontend development using JSP to enhance site responsiveness and user interaction.",
-    "image": "/projects/zstore-jee.svg",
+    "image": "/projects/zstore.jee.png",
     "category": "Web Application",
     "timeline": {
       "start": "Mar 2024",
