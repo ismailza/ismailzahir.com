@@ -13,7 +13,7 @@ const Service = ({ data: service }: { data: ServiceProps }) => {
                 d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"/>
         </svg>
       </span>
-      <Link href={`/services/${service.slug}`}>
+      <Link href="#">
         <h1 className="text-xl font-semibold text-gray-700 capitalize dark:text-white">
           {service.name}
         </h1>
@@ -22,7 +22,7 @@ const Service = ({ data: service }: { data: ServiceProps }) => {
         {service.excerpt}
       </p>
       <div className="mt-auto flex flex-col flex-1 gap-1 items-end justify-end">
-        <Link href={`/services/${service.slug}`}
+        <Link href="#"
            className="p-2 text-blue-500 capitalize transition-colors duration-300 transform bg-blue-100 rounded-full rtl:-scale-x-100 dark:bg-gray-700 hover:bg-blue-200 dark:hover:bg-gray-800 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500">
           <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24"
                stroke="currentColor">
