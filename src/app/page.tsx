@@ -228,7 +228,7 @@ export default function Home() {
                   <p className="my-2 text-gray-600 dark:text-gray-300">
                     My professional experience includes working as a software engineer at various companies.
                   </p>
-                  <div className="py-2 grid lg:grid-cols-2 gap-4 lg:max-h-screen lg:overflow-y-auto">
+                  <div className="py-2 grid lg:grid-cols-2 gap-4 max-h-screen overflow-y-auto">
                     {experiencesLoading ? (
                       <>
                         <CardSkeleton/>
@@ -251,7 +251,7 @@ export default function Home() {
                     My educational background includes a degree in Software Engineering and Computer Systems
                     Integration.
                   </p>
-                  <div className="py-2 grid lg:grid-cols-2 gap-4 lg:max-h-screen lg:overflow-y-auto">
+                  <div className="py-2 grid lg:grid-cols-2 gap-4 max-h-screen overflow-y-auto">
                     {educationsLoading ? (
                       <CardSkeleton/>
                     ) : (
@@ -271,7 +271,7 @@ export default function Home() {
                     {`I have a wide range of skills that I've developed throughout my career as a software engineer.`}
                   </p>
                   <div
-                    className="py-2 grid lg:grid-cols-4 grid-cols-3 gap-4 lg:max-h-screen lg:overflow-y-auto">
+                    className="py-2 grid lg:grid-cols-4 grid-cols-3 gap-4 max-h-screen overflow-y-auto">
                     {skillsLoading ? (
                       <CardSkeleton/>
                     ) : (
@@ -290,7 +290,7 @@ export default function Home() {
                   <p className="my-2 text-gray-600 dark:text-gray-300">
                     {`I have completed various courses and certifications to improve my skills and knowledge.`}
                   </p>
-                  <div className="py-2 grid lg:grid-cols-2 gap-4 lg:max-h-screen lg:overflow-y-auto">
+                  <div className="py-2 grid lg:grid-cols-2 gap-4 max-h-screen overflow-y-auto">
                     {certificatesLoading ? (
                       <CardSkeleton/>
                     ) : (
