@@ -51,68 +51,6 @@
     "github": "https://github.com/NexoWorld"
   },
   {
-    "title": "ZStore.Net",
-    "slug": "zstore-net",
-    "excerpt": "ZStore.Net is a modern e-commerce platform designed to streamline online retail operations, offering seamless product management and customer engagement features.",
-    "overview": "Built with ASP.Net Core, ZStore.Net aims to provide a robust and scalable solution for online stores, ensuring smooth operations from product listings to order management. The platform leverages MVC architecture for a clean separation of concerns and Entity Framework to simplify database interactions with MS SQL. Through CI/CD pipelines, ZStore.Net supports continuous development and deployment for quick feature releases and bug fixes.",
-    "image": "/projects/zstore.net.png",
-    "category": "Web Application",
-    "timeline": {
-      "start": "Oct 2024",
-      "end": "Present"
-    },
-    "features": [
-      "Product Management: Easily manage product listings, categories, and inventory.",
-      "Order Management: Track customer orders from placement to delivery.",
-      "User Authentication: Secure login and registration processes with role-based access control."
-    ],
-    "featured": false,
-    "technologies": ["ASP.Net Core", "MVC", "MS SQL", "Entity Framework", "Docker", "Git Flow", "CI/CD"],
-    "team": [
-      {
-        "name": "Ismail ZAHIR",
-        "role": "Software Engineering Student at FST Mohammedia - UH2C",
-        "linkedin": "https://www.linkedin.com/in/ismailzahir01/",
-        "github": "https://www.github.com/ismailza"
-      }
-    ],
-    "tags": ["E-commerce", "Web App", "ASP.Net Core", "MVC", "MS SQL"],
-    "github": "https://github.com/ismailza/zstore.net"
-  },
-  {
-    "title": "Dr Maroc",
-    "slug": "drmaroc",
-    "excerpt": "Dr Maroc offers a broad range of digital solutions to help doctors manage their clinics, services, and patients, as well as to simplify appointment booking for patients. ",
-    "overview": "Dr Maroc aims to modernize healthcare in Morocco by equipping medical professionals with digital tools and services to optimize clinic management. This web platform streamlines various healthcare operations, from appointment scheduling to patient record management, while enabling doctors to market their services. The platform ensures data security through industry-standard encryption techniques and offers a seamless user experience for both doctors and patients.",
-    "image": "/projects/drmaroc.png",
-    "category": "Web Application",
-    "timeline": {
-      "start": "Jul 2024",
-      "end": "Present"
-    },
-    "featured": true,
-    "technologies": ["Spring Boot", "React.js", "PostgreSQL", "JUnit", "JWT", "Docker", "Git Flow", "CI/CD", "VPS"],
-    "features": [
-      "Appointment Management: Easily manage patient appointments with an intuitive scheduling system.",
-      "Doctor Profiles: Doctors can create and manage their profiles, list services, and availability.",
-      "Patient Records: A solution for digitizing patient medical records while ensuring data security.",
-      "Assistant Management: Doctors can add and manage assistants to help with daily tasks.",
-      "Marketing Solutions: Doctors can promote their services directly through our platform.",
-      "Clinic Digitalization: Tools to assist in the digital transformation of healthcare offices.",
-      "Medical Equipment Setup: A service for installing and managing medical equipment in clinics."
-    ],
-    "team": [
-      {
-        "name": "Ismail ZAHIR",
-        "role": "Software Engineering Student at FST Mohammedia - UH2C",
-        "linkedin": "https://www.linkedin.com/in/ismailzahir01/",
-        "github": "https://www.github.com/ismailza"
-      }
-    ],
-    "tags": ["Healthcare", "Clinic Management", "Appointment Booking", "Digital Solutions"],
-    "github": "https://github.com/drmaroc"
-  },
-  {
     "title": "Kolchi.ma",
     "slug": "kolchi.ma",
     "excerpt": "Your One-Stop Marketplace for Buying, Selling, and Repairing – All in One Seamless Experience",
@@ -147,6 +85,68 @@
     ],
     "tags": ["E-commerce", "Services", "Web App", "Microservices"],
     "github": "https://github.com/kolchi-ma"
+  },
+  {
+    "title": "Dr Maroc",
+    "slug": "drmaroc",
+    "excerpt": "Dr Maroc offers a broad range of digital solutions to help doctors manage their clinics, services, and patients, as well as to simplify appointment booking for patients. ",
+    "overview": "Dr Maroc aims to modernize healthcare in Morocco by equipping medical professionals with digital tools and services to optimize clinic management. This web platform streamlines various healthcare operations, from appointment scheduling to patient record management, while enabling doctors to market their services. The platform ensures data security through industry-standard encryption techniques and offers a seamless user experience for both doctors and patients.",
+    "image": "/projects/drmaroc.png",
+    "category": "Web Application",
+    "timeline": {
+      "start": "Jul 2024",
+      "end": "Present"
+    },
+    "featured": true,
+    "technologies": ["Spring Boot", "React.js", "PostgreSQL", "JUnit", "JWT", "Docker", "Git Flow", "CI/CD", "VPS"],
+    "features": [
+      "Appointment Management: Easily manage patient appointments with an intuitive scheduling system.",
+      "Doctor Profiles: Doctors can create and manage their profiles, list services, and availability.",
+      "Patient Records: A solution for digitizing patient medical records while ensuring data security.",
+      "Assistant Management: Doctors can add and manage assistants to help with daily tasks.",
+      "Marketing Solutions: Doctors can promote their services directly through our platform.",
+      "Clinic Digitalization: Tools to assist in the digital transformation of healthcare offices.",
+      "Medical Equipment Setup: A service for installing and managing medical equipment in clinics."
+    ],
+    "team": [
+      {
+        "name": "Ismail ZAHIR",
+        "role": "Software Engineering Student at FST Mohammedia - UH2C",
+        "linkedin": "https://www.linkedin.com/in/ismailzahir01/",
+        "github": "https://www.github.com/ismailza"
+      }
+    ],
+    "tags": ["Healthcare", "Clinic Management", "Appointment Booking", "Digital Solutions"],
+    "production": "https://drmaroc.com"
+  },
+  {
+    "title": "ZStore.Net",
+    "slug": "zstore-net",
+    "excerpt": "ZStore.Net is a modern e-commerce platform designed to streamline online retail operations, offering seamless product management and customer engagement features.",
+    "overview": "Built with ASP.Net Core, ZStore.Net aims to provide a robust and scalable solution for online stores, ensuring smooth operations from product listings to order management. The platform leverages MVC architecture for a clean separation of concerns and Entity Framework to simplify database interactions with MS SQL. Through CI/CD pipelines, ZStore.Net supports continuous development and deployment for quick feature releases and bug fixes.",
+    "image": "/projects/zstore.net.png",
+    "category": "Web Application",
+    "timeline": {
+      "start": "Oct 2024",
+      "end": "Present"
+    },
+    "features": [
+      "Product Management: Easily manage product listings, categories, and inventory.",
+      "Order Management: Track customer orders from placement to delivery.",
+      "User Authentication: Secure login and registration processes with role-based access control."
+    ],
+    "featured": false,
+    "technologies": ["ASP.Net Core", "MVC", "MS SQL", "Entity Framework", "Docker", "Git Flow", "CI/CD"],
+    "team": [
+      {
+        "name": "Ismail ZAHIR",
+        "role": "Software Engineering Student at FST Mohammedia - UH2C",
+        "linkedin": "https://www.linkedin.com/in/ismailzahir01/",
+        "github": "https://www.github.com/ismailza"
+      }
+    ],
+    "tags": ["E-commerce", "Web App", "ASP.Net Core", "MVC", "MS SQL"],
+    "github": "https://github.com/ismailza/zstore.net"
   },
   {
     "title": "Busway Ticket Chatbot",

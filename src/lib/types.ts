@@ -18,6 +18,7 @@ export interface ProjectProps {
   github?: string;
   demo?: string;
   release?: string;
+  production?: string;
 }
 
 /**
