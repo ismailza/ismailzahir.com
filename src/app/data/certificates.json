@@ -1,5 +1,50 @@
 [
   {
+    "title": "ASP.NET Core: Test-Driven Development",
+    "credential_id": "aebfc39c807f1fac9ed0d4a109479820a601c8f37ce03ad71265ee68a4ffa422",
+    "image": "/certificates/aspdotnet-core-test-driven-development.jpg",
+    "link": "https://www.linkedin.com/learning/certificates/aebfc39c807f1fac9ed0d4a109479820a601c8f37ce03ad71265ee68a4ffa422?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B0o7D1jIFQc2t5VORXbKDNQ%3D%3D",
+    "issuedAt": "Mar 2025",
+    "issuedBy": "Linkedin",
+    "featured": true
+  },
+  {
+    "title": "Angular: Building Large Applications",
+    "credential_id": "99a1194be83df0e317f1dbf14422c1346636b04684d278ae45a4db33bc2229c0",
+    "image": "/certificates/angular-building-large-app.jpg",
+    "link": "https://www.linkedin.com/learning/certificates/99a1194be83df0e317f1dbf14422c1346636b04684d278ae45a4db33bc2229c0?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B0o7D1jIFQc2t5VORXbKDNQ%3D%3D",
+    "issuedAt": "Mar 2025",
+    "issuedBy": "Linkedin",
+    "featured": true
+  },
+  {
+    "title": "Java: Advanced Concepts for High-Performance Development",
+    "credential_id": "f6b0390db10b0a5cda15c27e3e1675da8b6c6911ab36fbb0133a13ce6e4e2195",
+    "image": "/certificates/java-advanced-concepts-for-hight-performance-dev.jpg",
+    "link": "https://www.linkedin.com/learning/certificates/f6b0390db10b0a5cda15c27e3e1675da8b6c6911ab36fbb0133a13ce6e4e2195?trk=share_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B0o7D1jIFQc2t5VORXbKDNQ%3D%3D",
+    "issuedAt": "Feb 2025",
+    "issuedBy": "Linkedin",
+    "featured": true
+  },
+  {
+    "title": ".NET Development for Beginners",
+    "credential_id": "c3d9af74cfe6cbfbd97da78b535245934017c94b0d9911d1f9fcf2814a879ffd",
+    "image": "/certificates/dotnet-dev-for-beginners.jpg",
+    "link": "https://www.linkedin.com/learning/certificates/c3d9af74cfe6cbfbd97da78b535245934017c94b0d9911d1f9fcf2814a879ffd?trk=share_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B0o7D1jIFQc2t5VORXbKDNQ%3D%3D",
+    "issuedAt": "Jan 2025",
+    "issuedBy": "Linkedin",
+    "featured": false
+  },
+  {
+    "title": "C#: Advanced Practices",
+    "credential_id": "87080ffbdb86fb4ae946ebb14c9fe08b3c6007c7520b003cdecec1dff00af678",
+    "image": "/certificates/c-sharp-advanced-practices.jpg",
+    "link": "https://www.linkedin.com/learning/certificates/87080ffbdb86fb4ae946ebb14c9fe08b3c6007c7520b003cdecec1dff00af678?trk=share_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B0o7D1jIFQc2t5VORXbKDNQ%3D%3D",
+    "issuedAt": "Jan 2025",
+    "issuedBy": "Linkedin",
+    "featured": true
+  },
+  {
     "title": "C++",
     "credential_id": "CC-0BULPLVU",
     "image": "/certificates/cpp-sololearn.jpg",
