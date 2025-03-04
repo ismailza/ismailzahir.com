@@ -1,5 +1,10 @@
 [
   {
+    "name": "ASP.NET",
+    "icon": "/icons/dotnet.png",
+    "featured": true
+  },
+  {
     "name": "Vue.js",
     "icon": "/icons/vuejs.gif",
     "featured": true
