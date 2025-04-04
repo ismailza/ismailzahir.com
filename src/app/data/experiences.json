@@ -15,19 +15,19 @@
     "overview": "I contributed to the enhancement and standardization of Wat.erp, an ERP designed for customer management in the water, energy, and sanitation sectors."
   },
   {
-    "title": "Software Engineer",
+    "title": "Founder & Software Engineer",
     "company": {
       "name": "Dr Maroc",
       "url": "https://www.drmaroc.com",
       "logo": "/logo/drmaroc.png",
       "location": "Rabat, Morocco"
     },
-    "type": "Hybrid",
+    "type": "Remote",
     "startedAt": "Jul 2024",
     "endedAt": "Present",
     "employment_type": "Full-time",
-    "skills": ["Spring Boot", "Spring Security", "Spring Data", "JUnit", "React Js", "PostgresSQL", "GitFlow", "Docker", "CI/CD"],
-    "overview": "Developed and maintained the Dr Maroc platform for online medical appointments and patient management desktop application."
+    "skills": ["Spring Boot", "Spring Security", "Spring Data", "JUnit", "React Js", "Angular", "PostgresSQL", "GitFlow", "Docker", "CI/CD"],
+    "overview": "Designed and developed a full-stack healthcare platform to modernize medical services in Morocco. Built with React.js, Angular, and Spring Boot, the platform includes role-based access, appointment scheduling, patient record management, and secure deployment via Docker on a VPS."
   },
   {
     "title": "Full Stack Developer",
