@@ -50,7 +50,7 @@ const Header = () => {
   }, []);
 
   return (
-    <section className={`bg-white dark:bg-gray-900 ${isFixed ? 'fixed top-0 w-full z-50 shadow-lg' : ''}`}>
+    <section className={`bg-white dark:bg-gray-950 ${isFixed ? 'fixed top-0 w-full z-50 shadow-lg' : ''}`}>
       <nav className="container p-4 mx-auto lg:flex lg:justify-between lg:items-center">
         <div className="flex items-center justify-between">
           <Link href="/">

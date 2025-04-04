@@ -3,7 +3,7 @@ import { ExperienceProps } from "@/lib/types";
 
 const Experience = ({ data: experience }: { data: ExperienceProps }) => {
   return (
-    <div className="px-4 py-2 overflow-hidden bg-blue-100 rounded-lg shadow-md dark:bg-gray-800 flex flex-col">
+    <div className="px-4 py-2 overflow-hidden bg-blue-100 rounded-lg shadow-md dark:bg-gray-900 flex flex-col">
       <span
         className="block my-2 text-xl font-semibold text-blue-600 transition-colors duration-300 transform dark:text-white hover:text-gray-600 hover:underline">
         {experience.title}

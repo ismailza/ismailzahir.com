@@ -3,7 +3,7 @@ import React from "react";
 
 const Education = ({ data: education }: { data: EducationProps }) => {
   return (
-    <div className="px-4 py-2 overflow-hidden bg-blue-100 rounded-lg shadow-md dark:bg-gray-800">
+    <div className="px-4 py-2 overflow-hidden bg-blue-100 rounded-lg shadow-md dark:bg-gray-900">
       <h2 className="text-md font-medium text-blue-600 dark:text-blue-400 uppercase">
         {education.type}
       </h2>

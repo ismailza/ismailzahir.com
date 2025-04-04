@@ -28,7 +28,7 @@ export default function Projects() {
   }
 
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section className="bg-white dark:bg-gray-950">
       <div className="container px-6 py-10 mx-auto">
         <Title>Projects</Title>
         <p className="mt-4  text-gray-500 dark:text-gray-300">

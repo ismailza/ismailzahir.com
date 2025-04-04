@@ -23,7 +23,7 @@ const Service = ({ data: service }: { data: ServiceProps }) => {
       </p>
       <div className="mt-auto flex flex-col flex-1 gap-1 items-end justify-end">
         <Link href="#"
-           className="p-2 text-blue-500 capitalize transition-colors duration-300 transform bg-blue-100 rounded-full rtl:-scale-x-100 dark:bg-gray-700 hover:bg-blue-200 dark:hover:bg-gray-800 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500">
+           className="p-2 text-blue-500 capitalize transition-colors duration-300 transform bg-blue-100 rounded-full rtl:-scale-x-100 dark:bg-gray-800 hover:bg-blue-200 dark:hover:bg-gray-800 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500">
           <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24"
                stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"

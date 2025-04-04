@@ -82,7 +82,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="lg:px-12 bg-white dark:bg-gray-900">
+    <div className="lg:px-12 bg-white dark:bg-gray-950">
       <header className="container px-6 py-16 mx-auto">
         <div className="items-center lg:flex lg:flex-row-reverse">
           <div className="relative mx-auto mt-4 md:mt-16 lg:mt-0">
@@ -347,7 +347,7 @@ export default function Home() {
         </div>
         <div className="flex justify-center">
           <Link href="/projects"
-                className="flex mt-4 mx-auto px-6 gap-4 justify-center items-center p-2 text-blue-500 capitalize transition-colors duration-300 transform bg-blue-100 rounded-full rtl:-scale-x-100 dark:bg-gray-700 hover:bg-blue-200 dark:hover:bg-gray-800 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500">
+                className="flex mt-4 mx-auto px-6 gap-4 justify-center items-center p-2 text-blue-500 capitalize transition-colors duration-300 transform bg-blue-100 rounded-full rtl:-scale-x-100 dark:bg-gray-800 hover:bg-blue-200 dark:hover:bg-gray-800 dark:text-white hover:underline hover:text-blue-600 dark:hover:text-blue-500 shadow-lg">
             <span>View All</span>
             <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24"
                  stroke="currentColor">
@@ -372,7 +372,7 @@ export default function Home() {
             </p>
             <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
               <div>
-                <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-900">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
                        stroke="currentColor" className="w-5 h-5">
                     <path strokeLinecap="round" strokeLinejoin="round"
@@ -386,7 +386,7 @@ export default function Home() {
                 <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">{contact.email}</p>
               </div>
               <div>
-                <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-900">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
                        stroke="currentColor" className="w-5 h-5">
                     <path strokeLinecap="round" strokeLinejoin="round"
@@ -400,7 +400,7 @@ export default function Home() {
                 <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">{contact.phone}</p>
               </div>
               <div>
-                <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
+                <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-900">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
                        stroke="currentColor" className="w-5 h-5">
                     <path strokeLinecap="round" strokeLinejoin="round"
@@ -417,7 +417,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="p-4 py-6 rounded-lg bg-gray-50 dark:bg-gray-800 md:p-8">
+          <div className="p-4 py-6 rounded-lg bg-gray-50 dark:bg-gray-900 md:p-8">
             <ContactForm/>
           </div>
         </div>

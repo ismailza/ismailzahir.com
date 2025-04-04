@@ -35,7 +35,7 @@ export default function Project({ params }: { params: { slug: string } }) {
   }
 
   return (
-    <div className="bg-white dark:bg-gray-900">
+    <div className="bg-white dark:bg-gray-950">
       <header className="container px-6 py-12 mx-auto">
         <div className="items-center lg:flex">
           <div className="w-full lg:w-1/2">

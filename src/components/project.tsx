@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Project = ({ data: project }: { data: ProjectProps }) => {
   return (
-    <div className="w-full bg-blue-100 rounded-lg shadow-lg dark:bg-gray-800 flex flex-col">
+    <div className="w-full bg-blue-100 rounded-lg shadow-lg dark:bg-gray-900 flex flex-col">
       <Link href={`/projects/${project.slug}`}>
         <img
           className="object-cover object-center w-full h-56 rounded-t-lg"
@@ -13,7 +13,7 @@ const Project = ({ data: project }: { data: ProjectProps }) => {
           loading="lazy"
         />
       </Link>
-      <div className="w-full flex items-center px-6 py-3 bg-blue-500 dark:bg-gray-900">
+      <div className="w-full flex items-center px-6 py-3 bg-blue-500 dark:bg-gray-800">
         <svg
           aria-label="headphones icon"
           className="w-6 h-6 text-white fill-current"
