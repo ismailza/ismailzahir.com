@@ -4,15 +4,15 @@
     "company": {
       "name": "Somei",
       "url": "https://www.somei.fr",
-      "logo": "/logo/somei.webp",
+      "logo": "/logo/somei.png",
       "location": "Rabat, Morocco"
     },
     "type": "On-site",
     "startedAt": "Feb 2025",
     "endedAt": "Present",
-    "employment_type": "Internship",
+    "employment_type": "End Of Study Internship",
     "skills": ["ASP.NET Core", "Angular", "Oracle", "NHibernate", "PL/SQL", "Liquibase", "Azure", "DevOps", "Git"],
-    "overview": "I contributed to the enhancement and standardization of Wat.erp, an ERP designed for customer management in the water, energy, and sanitation sectors."
+    "overview": "I contributed to the enhancement and standardization of Wat.erp, a large-scale ERP dedicated to customer management in the water, energy, and sanitation sectors. My work focused on improving the system’s security, performance, and usability. I redesigned the authorization engine to reinforce access control and simplify role management, developed dynamic parameterization interfaces to increase user autonomy, and took part in debugging and performance tuning of core modules."
   },
   {
     "title": "Founder & Software Engineer",
